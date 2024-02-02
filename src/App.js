@@ -66,7 +66,7 @@ function App() {
           headers: {
             "Content-Type": "application/x-www-form-urlencoded",
           },
-          body: "grant_type=client_credentials&client_id=a77073181b7d48eb90003e3bb94ff88a&client_secret=68790982a0554d1a83427e061e371507",
+          body: "grant_type=client_credentials&client_id=4aacd2e6933b411d99f3862e596152d2&client_secret=a210328c81454f65a55344db8d3bb25b",
         });
 
         if (!response.ok) {
@@ -146,19 +146,8 @@ function App() {
           <div className="col-12 py-5 text-center">
             <h1>
               <i className="bi bi-music-note-list mx-3"></i>
-              v-music
+              retsutify
             </h1>
-            <h3 className="py-5">Discover music in 30 seconds</h3>
-            <div>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-outline-dark"
-                href="https://github.com/Vishesh-Pandey/v-music"
-              >
-                <i className="bi bi-github mx-2"></i>Github
-              </a>
-            </div>
           </div>
         </div>
       </div>
